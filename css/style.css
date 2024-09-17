@@ -11,3 +11,173 @@
     --card-border:#EEE;    
 }
 
+body {
+    font-family: "Roboto";
+}
+
+.header-logo {
+    color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+.header-studio {
+    color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+.nav-item {
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+}
+
+.nav-item:first-child:hover {
+    color: #2196F3;
+}
+
+.list-item {
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+}
+
+.list-item:first-child:hover {
+    color: #2196F3;
+}
+
+.hero-title {
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-weight: 900;
+line-height: 1.36;
+letter-spacing: 2.64px;
+text-transform: uppercase;
+background: #2F303A;
+}
+
+.hero-button {
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87;
+letter-spacing: 0.96px;
+background-color: #2196F3;
+}
+
+.adventures-title {
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.adventures-text {
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.42px;
+}
+
+.activities-title {
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+}
+
+.activities-item {
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.team-title {
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+}
+
+.team-subtitle {
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.18;
+letter-spacing: 0.48px;
+}
+
+.team-text {
+    color: #757575;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.18;
+letter-spacing: 0.48px;
+}
+
+.footer-logo {
+    color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+.footer-studio {
+    color: #FFF;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+.address-location {
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.42px;
+}
+
+.foter-list-item {
+    color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.42px;
+}
