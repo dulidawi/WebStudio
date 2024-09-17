@@ -68,7 +68,7 @@ body {
   line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-  background: #2f303a;
+  background: var(--footer-backdroung);
 }
 
 .hero-button {
@@ -79,7 +79,7 @@ body {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.96px;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .adventures-title {
@@ -116,7 +116,7 @@ body {
 }
 
 .team-title {
-  color: #212121;
+  color: var(--main-text);
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
@@ -126,7 +126,7 @@ body {
 }
 
 .team-subtitle {
-  color: #212121;
+  color: var(--main-text);
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -136,7 +136,7 @@ body {
 }
 
 .team-text {
-  color: #757575;
+  color:var(--aditional-text);
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -146,7 +146,7 @@ body {
 }
 
 .footer-logo {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -155,7 +155,7 @@ body {
 }
 
 .footer-studio {
-  color: #fff;
+  color: var(--title-color);
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -164,7 +164,7 @@ body {
 }
 
 .address-location {
-  color: #fff;
+  color: var(--title-color);
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -173,7 +173,7 @@ body {
 }
 
 .foter-list-item {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--adress-color);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -183,7 +183,7 @@ body {
 }
 
 .navigation-item {
-  color: #212121;
+  color: var(--main-text);
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -193,12 +193,12 @@ body {
 }
 
 .navigation-item:hover {
-  background-color: #2196f3;
-  color: #fff;
+  background-color: var(--accent-color);
+  color: var(--title-color);
 }
 
 .products-title {
-  color: #212121;
+  color: var(--main-text);
   font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
@@ -207,7 +207,7 @@ body {
 }
 
 .products-text {
-  color: #757575;
+  color: var(--aditional-text);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
