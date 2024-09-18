@@ -189,7 +189,7 @@ body {
   letter-spacing: 0.42px;
 }
 
-.navigation-item {
+.navigation-button {
   color: var(--main-text);
   text-align: center;
   font-family: Roboto;
@@ -199,7 +199,7 @@ body {
   letter-spacing: 0.48px;
 }
 
-.navigation-item:hover {
+.navigation-button:hover {
   background-color: var(--accent-color);
   color: var(--title-color);
 }
