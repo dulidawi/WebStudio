@@ -17,7 +17,7 @@ body {
 
 .header-logo {
   color: var(--accent-color) ;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
   line-height: 1.38;
@@ -26,7 +26,7 @@ body {
 
 .header-studio {
   color: var(--logo-color);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
   line-height: 1.38;
@@ -35,7 +35,6 @@ body {
 
 .nav-page {
   color: var(--main-text);
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -48,7 +47,6 @@ body {
 
 .list-contact {
   color: var(--aditional-text);
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -62,7 +60,6 @@ body {
 .hero-title {
   color: var(--title-color);
   text-align: center;
-  font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -77,7 +74,6 @@ body {
 .hero-button {
   color: var(--title-color);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
@@ -87,7 +83,6 @@ body {
 
 .adventures-title {
   color: var(--main-text);
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -97,7 +92,6 @@ body {
 
 .adventures-text {
   color: var(--aditional-text);
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -107,7 +101,6 @@ body {
 .activities-title {
   color: var(--main-text);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
@@ -121,7 +114,6 @@ body {
 .team-title {
   color: var(--main-text);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
@@ -131,7 +123,6 @@ body {
 .team-subtitle {
   color: var(--main-text);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
@@ -141,7 +132,6 @@ body {
 .team-text {
   color:var(--aditional-text);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.18;
@@ -154,7 +144,7 @@ body {
 
 .footer-logo {
   color: var(--accent-color);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
   line-height: 1.38;
@@ -163,7 +153,7 @@ body {
 
 .footer-studio {
   color: var(--title-color);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
   line-height: 1.38;
@@ -172,7 +162,6 @@ body {
 
 .address-location {
   color: var(--title-color);
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -181,9 +170,7 @@ body {
 
 .footer-link {
   color: var(--adress-color);
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
@@ -192,7 +179,6 @@ body {
 .navigation-button {
   color: var(--main-text);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
@@ -206,7 +192,6 @@ body {
 
 .products-title {
   color: var(--main-text);
-  font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -215,7 +200,6 @@ body {
 
 .products-text {
   color: var(--aditional-text);
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.87;
