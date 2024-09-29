@@ -11,12 +11,25 @@
   --card-border: #eee;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
 body {
   font-family: "Roboto";
 }
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .header-logo {
-  color: var(--accent-color) ;
+  color: var(--accent-color);
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -68,7 +81,9 @@ body {
 }
 
 .main-hero {
-    background: var(--footer-backdroung);
+  background: var(--footer-backdroung);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-button {
@@ -79,6 +94,11 @@ body {
   line-height: 1.87;
   letter-spacing: 0.96px;
   background-color: var(--accent-color);
+}
+
+.main-adventures {
+  padding-top: 94px;
+  padding-bottom: 59px;
 }
 
 .adventures-title {
@@ -98,6 +118,11 @@ body {
   letter-spacing: 0.42px;
 }
 
+.main-activities {
+  padding-top: 59px;
+  padding-bottom: 94px;
+}
+
 .activities-title {
   color: var(--main-text);
   text-align: center;
@@ -107,8 +132,10 @@ body {
   letter-spacing: 1.08px;
 }
 
-.main-team{
-    background: var(--team-background);
+.main-team {
+  background: var(--team-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -130,7 +157,7 @@ body {
 }
 
 .team-text {
-  color:var(--aditional-text);
+  color: var(--aditional-text);
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -139,7 +166,9 @@ body {
 }
 
 .footer {
-    background: var(--footer-backdroung);
+  background: var(--footer-backdroung);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -176,6 +205,13 @@ body {
   letter-spacing: 0.42px;
 }
 
+/* portfolio css */
+
+.section-navigation {
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
 .navigation-button {
   color: var(--main-text);
   text-align: center;
@@ -190,6 +226,10 @@ body {
   color: var(--title-color);
 }
 
+.section-products {
+  padding-top: 25px;
+  padding-bottom: 94px;
+}
 .products-title {
   color: var(--main-text);
   font-size: 18px;
