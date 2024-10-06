@@ -28,7 +28,7 @@ body {
   padding-bottom: 25px;
 }
 
-.header-box{
+.header-box {
   display: flex;
   align-items: center;
 }
@@ -52,7 +52,7 @@ body {
   letter-spacing: 0.78px;
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   gap: 50px;
 }
@@ -69,7 +69,7 @@ body {
   color: var(--accent-color);
 }
 
-.header-list{
+.header-list {
   display: flex;
   gap: 50px;
   margin-left: auto;
@@ -125,6 +125,11 @@ body {
   padding-top: 94px;
 }
 
+.adventures-list {
+  display: flex;
+
+}
+
 .adventures-title {
   color: var(--main-text);
   font-size: 14px;
@@ -132,6 +137,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .adventures-text {
@@ -154,8 +160,12 @@ body {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
-  outline: 1px solid blue;
   margin-bottom: 50px;
+}
+
+.activities-list {
+  display: flex;
+  gap: 30px;
 }
 
 .main-team {
@@ -171,6 +181,20 @@ body {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+
+.team-list{
+    display: flex;
+    gap: 30px;
+
+}
+
+.team-img{
+width: 270px;
+height: 260px;
+flex-shrink: 0;
+margin-bottom: 30px;
 }
 
 .team-subtitle {
@@ -180,6 +204,7 @@ body {
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.48px;
+  margin-bottom: 10px;
 }
 
 .team-text {
@@ -189,6 +214,7 @@ body {
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0.48px;
+  margin-bottom: 30px;
 }
 
 .footer {
@@ -204,6 +230,7 @@ body {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
+
 }
 
 .footer-studio {
@@ -213,6 +240,11 @@ body {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
+
+}
+
+.footer-address{
+  margin-top: 20px;
 }
 
 .address-location {
@@ -221,6 +253,7 @@ body {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
+
 }
 
 .footer-link {
