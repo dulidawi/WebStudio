@@ -305,19 +305,17 @@ body {
 .products-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  grid-row-gap: 30px;
+  gap: 30px;
 }
 
 .products-item {
-  border: 1px solid #eee;
+  outline: 1px solid #eee;
   background: #fff;
 }
 
 .products-img {
   width: 370px;
   height: 294px;
-  flex-shrink: 0;
   background: url(<path-to-image>) lightgray 50% / cover no-repeat
 }
 
