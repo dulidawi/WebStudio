@@ -139,6 +139,9 @@ body {
   border-radius: 4px;
   background: #f5f4fa;
   margin-bottom: 30px;
+  background-image: url(../img/antenna.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .adventures-title {
