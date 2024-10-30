@@ -128,7 +128,6 @@ body {
 .adventures-list {
   display: flex;
   gap: 30px;
-  
 }
 
 .adventures-item::before {
@@ -142,6 +141,18 @@ body {
   background-image: url(../img/antenna.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.adventures-item:nth-child(2)::before {
+  background-image: url(../img/clock.png);
+}
+
+.adventures-item:nth-child(3)::before {
+  background-image: url(../img/diagram.png);
+}
+
+.adventures-item:nth-child(4)::before {
+  background-image: url(../img/astronaut.png);
 }
 
 .adventures-title {
