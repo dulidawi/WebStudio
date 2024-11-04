@@ -69,6 +69,10 @@ body {
   color: var(--accent-color);
 }
 
+.active-page{
+  color: var(--accent-color);
+}
+
 .header-list {
   display: flex;
   gap: 50px;
@@ -93,9 +97,9 @@ body {
   padding-bottom: 200px;
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/herobackground.jpg);
-  width: 1600px;
-  height: 600px;
-  background-color: rgba(47, 48, 58, 0.4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
