@@ -58,6 +58,13 @@ body {
   gap: 50px;
 }
 
+
+
+.header-icon{
+width: 16px;
+height: 12px;
+}
+
 .nav-page {
   color: var(--main-text);
   font-size: 14px;
