@@ -91,19 +91,19 @@ body {
   letter-spacing: 0.28px;
 }
 
-.list-contact:hover{
-  .header-icon{
+.list-contact:hover {
+  .header-icon {
     fill: var(--accent-color);
   }
 }
 
-.header-icon{
+.header-icon {
   width: 16px;
   height: 12px;
   fill: var(--aditional-text);
 }
 
-.list-contact:nth-child(2){
+.list-contact:nth-child(2) {
   width: 10px;
   height: 16px;
 }
@@ -339,22 +339,22 @@ body {
   justify-content: space-between;
 }
 
-.clients-link{
+.clients-link {
   display: flex;
   align-items: center;
   justify-content: center;
-width: 170px;
-height: 92px;
-border-radius: 4px;
-border: 1px solid var(--icon-color);
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid var(--icon-color);
 }
 
 .clients-link:hover,
-.clients-link:focus{
+.clients-link:focus {
   outline: 1px solid var(--accent-color);
   border: none;
-  .clients-icon{
-    fill: var(--accent-color)
+  .clients-icon {
+    fill: var(--accent-color);
   }
 }
 
@@ -370,11 +370,11 @@ border: 1px solid var(--icon-color);
   padding-bottom: 60px;
 }
 
-.footer-container{
-  display: flex;  
+.footer-container {
+  display: flex;
 }
 
-.address-div{
+.address-div {
   margin-right: 70px;
 }
 
@@ -420,29 +420,29 @@ border: 1px solid var(--icon-color);
   letter-spacing: 0.42px;
 }
 
-.footer-title{
+.footer-title {
   color: var(--title-color);
-font-size: 14px;
-font-weight: 700;
-line-height: 1.14;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-margin-bottom: 20px;
-margin-top: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 12px;
 }
 
-.platforms-link{
+.platforms-link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .platforms-link:hover,
-.platforms-link:focus{
+.platforms-link:focus {
   background-color: var(--accent-color);
   outline: none;
   .team-icon {
@@ -450,15 +450,13 @@ margin-top: 12px;
   }
 }
 
-
-.platforms-icon{
-width: 20px;
-height: 20px;
-fill: var(--title-color);
-
+.platforms-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--title-color);
 }
 
-.platforms-list{
+.platforms-list {
   display: flex;
   align-items: center;
   justify-content: center;
