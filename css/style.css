@@ -91,7 +91,9 @@ body {
   letter-spacing: 0.28px;
 }
 
-.list-contact:hover {
+.list-contact:hover,
+.list-contact:focus {
+  outline: none;
   .header-icon {
     fill: var(--accent-color);
   }
@@ -108,7 +110,9 @@ body {
   height: 16px;
 }
 
-.list-contact:hover {
+.list-contact:hover,
+.list-contact:focus {
+  outline: none;
   color: var(--accent-color);
 }
 
@@ -372,6 +376,7 @@ body {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .address-div {
@@ -428,7 +433,6 @@ body {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  margin-top: 12px;
 }
 
 .platforms-link {
