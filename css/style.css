@@ -227,6 +227,26 @@ body {
   gap: 30px;
 }
 
+.activities-item {
+  position: relative;
+}
+
+.activities-text {
+  color: var(--title-color);
+  background: rgba(47, 48, 58, 0.80);
+  padding: 27px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
 .main-team {
   background: var(--team-background);
   padding-top: 94px;
