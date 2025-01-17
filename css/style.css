@@ -105,11 +105,6 @@ body {
   fill: var(--aditional-text);
 }
 
-.list-contact:nth-child(2) {
-  width: 10px;
-  height: 16px;
-}
-
 .list-contact:hover,
 .list-contact:focus {
   outline: none;
