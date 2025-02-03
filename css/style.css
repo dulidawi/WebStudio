@@ -67,21 +67,17 @@ body {
   position: relative;
 }
 
-.nav-page::after {
+.active-page:after {
+  color: var(--accent-color);
   content: "";
   display: block;
   width: 100%;
   height: 4px;
   border-radius: 2px;
   background: #2196F3;
-  opacity: 0;
   position: absolute;
   bottom: -34.5px;
   left: 0;
-}
-
-.nav-page:hover::after {
-  opacity: 1;
 }
 
 .nav-page:hover {
@@ -122,13 +118,6 @@ body {
   height: 12px;
   fill: var(--aditional-text);
 }
-
-/* .list-item:last-child {
-  .header-icon {
-    width: 10px;
-    height: 20px;
-  }
-} */
 
 .list-contact:hover,
 .list-contact:focus {
