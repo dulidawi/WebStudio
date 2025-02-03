@@ -64,6 +64,24 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
+  position: relative;
+}
+
+.nav-page::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: #2196F3;
+  opacity: 0;
+  position: absolute;
+  bottom: -34.5px;
+  left: 0;
+}
+
+.nav-page:hover::after {
+  opacity: 1;
 }
 
 .nav-page:hover {
@@ -593,6 +611,13 @@ body {
   outline: 1px solid #eee;
   background: #fff;
   flex-basis: calc((100% - 60px) / 3);
+  position: relative;
+}
+
+.products-item:hover {
+  .products-overlay {
+    visibility: visible;
+  }
 }
 
 .products-item:hover {
@@ -604,6 +629,22 @@ body {
   width: 100%;
   height: 294px;
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.products-overlay {
+  color: var(--title-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.55;
+letter-spacing: 0.54px;
+position: absolute;
+top: 0;
+left: 0;
+background: rgba(33, 150, 243, 0.90);
+width: 370px;
+height: 294px;
+padding: 64px 24px;
+visibility: hidden;
 }
 
 .products-div {
