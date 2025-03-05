@@ -1,0 +1,111 @@
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    &__box {
+      display: flex;
+      align-items: center;
+    }
+
+    &__logo {
+      color: $accent-color;
+      font-family: "Raleway";
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.38;
+      letter-spacing: 0.78px;
+      margin-right: 93px;
+    }
+
+    &__studio {
+      color: $logo-color;
+      font-family: "Raleway";
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.38;
+      letter-spacing: 0.78px;
+    }
+
+    &__list {
+      display: flex;
+      gap: 30px;
+      margin-left: auto;
+    }
+
+    &__contact {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: $aditional-text;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.14;
+      letter-spacing: 0.28px;
+
+      &:hover,
+      &:focus {
+        outline: none;
+        color: $accent-color;
+        .header__icon {
+          fill: $accent-color;
+        }
+      }
+    }
+
+    &__icon {
+      width: 16px;
+      height: 12px;
+      fill: $aditional-text;
+    }
+  }  
+
+  .nav {
+     &__list {
+      display: flex;
+      gap: 50px;
+    }
+
+    &__page {
+      color: $main-text;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.14;
+      letter-spacing: 0.28px;
+      position: relative;
+
+      &:hover, 
+      &:focus {
+        color: $accent-color;
+      }      
+    }   
+  } 
+  
+  .active__page:after {
+    color: $accent-color;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: #2196F3;
+    position: absolute;
+    bottom: -34.5px;
+    left: 0;
+  }  
+  
+  .active__page {
+    color: $accent-color;
+  }
+  
+ 
+  
+
+  
+
+  
+  .header__icon {
+    width: 16px;
+    height: 12px;
+    fill: $aditional-text;
+  }
+  

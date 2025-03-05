@@ -1,0 +1,53 @@
+.adventures {
+  padding-top: 94px;
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    &::before {
+      content: "";
+      display: block;
+      width: 270px;
+      height: 120px;
+      border-radius: 4px;
+      background: #f5f4fa;
+      margin-bottom: 30px;
+      background-image: url(../img/antenna.png);
+      background-repeat: no-repeat;
+      background-position: center;      
+    }
+
+    &:nth-child(2)::before {
+      background-image: url(../img/clock.png);
+    }
+
+    &:nth-child(3)::before {
+      background-image: url(../img/diagram.png);
+    }
+
+    &:nth-child(4)::before {
+      background-image: url(../img/astronaut.png);
+    }
+  }
+
+  &__title {
+    color: $main-text;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    color: $aditional-text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+  }
+}
