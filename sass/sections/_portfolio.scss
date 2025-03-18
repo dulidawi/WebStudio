@@ -43,16 +43,12 @@
     flex-basis: calc((100% - 60px) / 3);
     position: relative;
   }
-  
-
 
   .products-item:hover {
     .products-overlay {
       visibility: visible;
     }
   }
-
-
   
   .products-item:hover {
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
