@@ -1,19 +1,18 @@
 .footer {
-    background: $footer-backdroung;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  
-  .footer-container {
+  background: $footer-backdroung;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__container {
     display: flex;
     align-items: baseline;
   }
-  
-  .address-div {
+
+  &__div {
     margin-right: 70px;
   }
-  
-  .footer-logo {
+
+  &__logo {
     color: $accent-color;
     font-family: "Raleway";
     font-size: 26px;
@@ -21,8 +20,8 @@
     line-height: 1.38;
     letter-spacing: 0.78px;
   }
-  
-  .footer-studio {
+
+  &__studio {
     color: $title-color;
     font-family: "Raleway";
     font-size: 26px;
@@ -30,32 +29,36 @@
     line-height: 1.38;
     letter-spacing: 0.78px;
   }
-  
-  .footer-address {
+
+  &__address {
     margin-top: 20px;
   }
-  
-  .address-location {
+
+  &__location {
     color: $title-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
   }
-  
-  .foter-list-item {
+
+  &__items {
     margin-top: 9px;
   }
-  
-  .footer-link {
+
+  &__link {
     color: $adress-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
   }
-  
-  .footer-title {
+}
+
+.platforms {
+  margin-right: auto;
+
+  &__title {
     color: $title-color;
     font-size: 14px;
     font-weight: 700;
@@ -64,12 +67,8 @@
     text-transform: uppercase;
     margin-bottom: 20px;
   }
-  
-  .platforms-div {
-    margin-right: auto;
-  }
-  
-  .platforms-link {
+
+  &__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -77,35 +76,47 @@
     justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, 0.1);
-  }
-  
-  .platforms-link:hover,
-  .platforms-link:focus {
-    background-color: $accent-color;
-    outline: none;
-    .team-icon {
-      fill: $title-color;
+
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+      outline: none;
+      .team__icon {
+        fill: $title-color;
+      }
     }
   }
-  
-  .platforms-icon {
+
+  &__icon {
     width: 20px;
     height: 20px;
     fill: $title-color;
   }
-  
-  .platforms-list {
+
+  &__list {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
   }
-  
-  .subscription-label-div {
+}
+
+.subscription {
+  &__title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  &__form {
     display: flex;
   }
-  
-  .subscription-input {
+
+  &__input {
     width: 358px;
     height: 50px;
     background: #2f303a;
@@ -117,12 +128,12 @@
     margin-right: 12px;
     padding-left: 16px;
   }
-  
-  .send-div {
+
+  &__sent {
     position: relative;
   }
-  
-  .subscription-button {
+
+  &__button {
     width: 200px;
     height: 50px;
     color: #fff;
@@ -136,22 +147,22 @@
     line-height: 1.87;
     letter-spacing: 0.96px;
   }
-  
-  /* .subscription-button:hover {
-    background: #188ce8;
-  } */
-  
-  .button-div {
+
+  &__div {
     position: absolute;
     top: 10px;
     left: 28px;
   }
-  
-  .button-svg {
+
+  &__svg {
     width: 24px;
     height: 24px;
     fill: #fff;
     position: absolute;
     top: 13px;
     right: 28px;
-  }
+  }  
+}
+
+
+
