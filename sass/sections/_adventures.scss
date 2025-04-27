@@ -1,8 +1,13 @@
 .adventures {
-  padding-top: 94px;
+  padding-top: 60px;
+
+  @media screen and (min-width:1200px) {
+    padding-top: 94px;
+  }
 
   &__list {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
   }
 
@@ -10,14 +15,26 @@
     &::before {
       content: "";
       display: block;
-      width: 270px;
+      width: 100%;
       height: 120px;
       border-radius: 4px;
       background: #f5f4fa;
       margin-bottom: 30px;
       background-image: url(../img/antenna.png);
       background-repeat: no-repeat;
-      background-position: center;      
+      background-position: center; 
+      
+      @media screen and (min-width:480px) {
+        width: 450px;
+      }
+
+      @media screen and (min-width:768px) {
+        width: 354px;
+      }
+
+      @media screen and (min-width:1200px) {
+        width: 270px;
+      }
     }
 
     &:nth-child(2)::before {
@@ -35,19 +52,37 @@
 
   &__title {
     color: $main-text;
+    text-align: start;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 10px;
+
+    @media screen and (min-width:768px) {
+      text-align: center;
+    }
   }
 
   &__text {
     color: $aditional-text;
+    width: 100%;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+
+    @media screen and (min-width:480px) {
+      width: 450px;
+    }
+
+    @media screen and (min-width:768px) {
+      width: 354px;
+    }
+
+    @media screen and (min-width:1200px) {
+      width: 270px;
+    }
   }
 }

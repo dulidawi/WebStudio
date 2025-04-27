@@ -1,40 +1,68 @@
 .team {
   background: $team-background;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width:1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 
   &__title {
     color: $main-text;
     text-align: center;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width:1200px) {
+      margin-bottom: 50px;
+      font-size: 36px;
+      line-height: 1.18;
+    }
   }
 
   &__list {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
   }
 
   &__item {
+    flex-basis: 100%;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+
+    @media screen and (min-width:480px) {
+      flex-basis: calc((100%) / 1);
+    }
+
+    @media screen and (min-width:768px) {
+      flex-basis: calc((100% - 30px) / 2);
+    }
+
+    @media screen and (min-width:1200px) {
+      flex-basis: calc((100% - 90px) / 4);
+    }
   }
 
   &__img {
-    width: 270px;
-    height: 260px;
-    flex-shrink: 0;
+    width: 100%;
+
   }
 
   &__div {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
     background-color: $title-color;
     border-radius: 0px 0px 4px 4px;
+
+    @media screen and (min-width:1200px) {
+      padding-bottom: 30px;
+    }
   }
 
     &__subtitle {
