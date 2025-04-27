@@ -2,19 +2,31 @@
   background: $footer-backdroung;
   padding-top: 60px;
   padding-bottom: 60px;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+  }
 
   &__container {
     display: flex;
-    align-items: baseline;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      align-items: baseline;
     }
+
+    // @media screen and (min-width: 1200px) {
+    //   align-items: baseline;
+
+    // }
   }
 
   &__div {
-    margin-right: 70px;
 
     @media screen and (min-width: 768px) {
       margin-right: 165px;
@@ -74,7 +86,9 @@
 }
 
 .platforms {
-  margin-right: auto;
+  @media screen and (min-width: 1200px) {
+    margin-right: auto;
+  }
 
   &__title {
     color: $title-color;
@@ -84,42 +98,51 @@
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 20px;
-  }
+    margin-top: 60px;
 
-  &__link {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.1);
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-      background-color: $accent-color;
-      outline: none;
-      .team__icon {
-        fill: $title-color;
-      }
+    @media screen and (min-width: 768px) {
+      margin-top: 0;
     }
   }
 
-  &__icon {
-    width: 20px;
-    height: 20px;
-    fill: $title-color;
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
   }
+}
 
-  &__list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+&__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    outline: none;
+    .team__icon {
+      fill: $title-color;
+    }
   }
+}
+
+&__icon {
+  width: 20px;
+  height: 20px;
+  fill: $title-color;
+}
+
+&__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .subscription {
@@ -131,6 +154,11 @@
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 20px;
+    margin-top: 60px;
+
+    @media screen and (min-width: 1200px) {
+      margin-top: 0;
+    }
   }
 
   &__form {
@@ -145,7 +173,7 @@
   }
 
   &__input {
-    width: 358px;
+    width: 450px;
     height: 50px;
     background: #2f303a;
     border-radius: 4px;
@@ -154,6 +182,14 @@
     background: rgba(33, 150, 243, 0);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding-left: 16px;
+
+    @media screen and (min-width: 768px) {
+      width: 450px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 358px;
+    }
   }
 
   &__sent {
@@ -164,7 +200,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     width: 200px;
     height: 50px;
     color: #fff;
@@ -177,23 +212,12 @@
     font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.96px;
-  }
-
-  &__div {
-    position: absolute;
-    top: 10px;
-    left: 28px;
+    gap: 10px;
   }
 
   .subscription__svg {
     width: 24px;
     height: 24px;
     fill: #fff;
-    position: absolute;
-    top: 50%;
-    right: 28px;
-    transform: translateY(-50%);
   }
-
-
 }
