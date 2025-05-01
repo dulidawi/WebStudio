@@ -19,15 +19,9 @@
       flex-direction: row;
       align-items: baseline;
     }
-
-    // @media screen and (min-width: 1200px) {
-    //   align-items: baseline;
-
-    // }
   }
 
   &__div {
-
     @media screen and (min-width: 768px) {
       margin-right: 165px;
     }
@@ -100,8 +94,7 @@
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 20px;
-    margin-top: 30px; 
-    
+
     @media screen and (min-width: 768px) {
       margin-top: 0;
     }
@@ -144,6 +137,7 @@
 }
 
 .subscription {
+
   &__title {
     color: #fff;
     font-size: 14px;
@@ -158,11 +152,11 @@
       margin-top: 0;
     }
   }
-}
 
   &__form {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
 
     @media screen and (min-width: 1200px) {
@@ -173,7 +167,6 @@
 
   &__input {
     width: 100%;
-    max-width: 450px; 
     height: 50px;
     background: #2f303a;
     border-radius: 4px;
@@ -183,18 +176,16 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding-left: 16px;
 
-    // @media screen and (min-width: 480px) {
-    //   width: 450px;
-    // }
+    @media screen and (min-width: 480px) {
+      width: 450px;
+    }
 
     @media screen and (min-width: 1200px) {
-      max-width: 358px;
-
-  &__sent {
-    position: relative;
+      width: 358px;
+    }
   }
 
-  .subscription__button {
+  &__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,10 +204,9 @@
     gap: 10px;
   }
 
-  .subscription__svg {
+  &__svg {
     width: 24px;
     height: 24px;
     fill: #fff;
   }
 }
-  }

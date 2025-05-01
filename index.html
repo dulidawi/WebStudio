@@ -25,11 +25,10 @@
   <header class="header">
     <div class="container header__box">
       <a href="./index.html" class="header__logo animate__animated animate__headShake">Web<span class="header__studio">Studio</span></a>
-      <button type="button" class="header__menu">
+      <button type="button" class="header__menu" data-menu-open>
         <svg class="header__burger">
           <use href="./img/symbol-defs.svg#menuicon"></use>
-        </svg>
-      
+        </svg>      
       </button>
       <nav class="header__nav">
         <ul class="nav__list" >
@@ -56,13 +55,40 @@
             </svg>+38 096 111 11 11</a>
         </li>
       </ul>
+
+      <div class="menu is-hidden" data-menu>
+        <button type="button" class="menu__close" data-menu-close>
+          <svg class="menu-icon">
+            <use href="./img/symbol-defs.svg#closeicon"></use>
+          </svg>
+        </button>
+        <ul class="menu__list">
+          <li class="menu__item">Студія<a href="./index.html" class="menu__link"></a></li>
+          <li class="menu__item">Портфоліо<a href="./pages/portfolio.html" class="menu__link"></a></li>
+          <li class="menu__item">Контакти<a href="#" class="menu__link"></a></li>
+        </ul>
+        <ul class="menu__items">
+          <li class="menu__telefon">+38 096 111 11 11<a href="tel:+380961111111" class="menu__contact"></a></li>
+          <li class="menu__element">info@devstudio.com<a href="mailto:info@devstudio.com" class="menu__contact"></a></li>
+        </ul>
+        <ul class="menu__social">
+          <li class="menu__elem">Instagram<a href="#" class="menu__component"></a></li>
+          <li class="menu__elem">Twitter<a href="#" class="menu__component"></a></li>
+          <li class="menu__elem">Facebook<a href="#" class="menu__component"></a></li>
+          <li class="menu__elem">LinkedIn<a href="#" class="menu__component"></a></li>
+        </ul>
+      </div>
+
+      
+
     </div>
   </header>
+
   <main>
     <section class="hero">
       <div class="container">
-        <h1 class="hero__title" data-aos="fade-down">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero__button" data-aos="fade-down" data-modal-open>Замовити послугу</button>
+        <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="hero__button" data-modal-open >Замовити послугу</button>
       </div>
     </section>
 
@@ -455,6 +481,7 @@
   <script>
     AOS.init();
   </script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
