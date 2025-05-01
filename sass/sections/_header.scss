@@ -35,7 +35,7 @@
       font-size: 26px;
       letter-spacing: 0.78px;
     }
-  }
+  } 
 
   &__studio {
     color: $logo-color;
@@ -52,6 +52,20 @@
     @media screen and (min-width: 768px) {
       display: block;
     }
+  }
+
+  &__menu {    
+    border: none;
+    background-color: transparent;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__burger {
+    width: 40px;
+    height: 40px;
   }
 
   &__list {
