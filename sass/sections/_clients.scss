@@ -30,6 +30,7 @@
   }
 
   &__item {
+    height: 92px;
     flex-basis: calc((100% - 30px) / 2);
 
     @media screen and (min-width: 480px) {
@@ -42,6 +43,7 @@
 
     @media screen and (min-width: 1200px) {
       flex-basis: calc((100% - 150px) / 6);
+      
     }
   }
 

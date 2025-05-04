@@ -205,7 +205,7 @@
     gap: 32px;
   }
 
-  &__item {
+  &__link {
     color: $main-text;
     font-size: 40px;
     font-weight: 500;
@@ -225,7 +225,7 @@
     margin-top: 100px;
   }
 
-  &__telefon {
+  &__contact {
     color: $accent-color;
     font-size: 34px;
     font-weight: 500;
@@ -233,7 +233,7 @@
     letter-spacing: 0.68px;
   }
 
-  &__element {
+  &__mail {
     color: $aditional-text;
     font-size: 24px;
     font-weight: 500;
@@ -248,7 +248,7 @@
     flex-wrap: wrap;
   }
 
-  &__elem {
+  &__component {
     color: $accent-color;
     font-size: 18px;
     font-weight: 500;
@@ -260,7 +260,7 @@
     gap: 10px;
   }
 
-  &__elem:last-child {
+  &__component:last-child {
     border-right: none;
   }
 }
